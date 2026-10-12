@@ -20,8 +20,8 @@ Our earlier experiments raised an important question: before teaching a model to
 
 ### 4A — Define and build
 
-- [ ] **4.0 — Specify the Lazy rules.** Document substitutions, capitalization, exceptions, ordering, and expected outputs; create a small set of verified examples.
-- [ ] **4.1 — Prepare a corpus.** Collect normal English and approved Lazy-transformed text, keep aligned pairs for evaluation, clean duplicates, and split data into training and held-out test sets.
+- [x] **4.0 — Specify the Lazy rules.** Document substitutions, capitalization, exceptions, ordering, and expected outputs; create a small set of verified examples.
+- [x] **4.1 — Prepare a corpus.** Collect normal English and approved Lazy-transformed text, keep aligned pairs for evaluation, clean duplicates, and split data into training and held-out test sets.
 - [ ] **4.2 — Establish baselines.** Inspect Qwen and BERT tokenizers on identical normal/Lazy inputs. Record token pieces, IDs, and counts.
 - [ ] **4.3 — Train a tokenizer.** Start with a simple baseline (character- or word-level) and experiment with BPE using Hugging Face `tokenizers`. Choose vocabulary size and pre-tokenization deliberately.
 - [ ] **4.4 — Inspect artifacts.** Explore vocabulary, merges (where applicable), token-to-ID mappings, special tokens, and encode/decode behavior.
@@ -86,11 +86,18 @@ These examples are research prompts, not evidence that any tokenizer has already
 
 ## Project status
 
-**Planning — Phase 4.** No trained tokenizer, benchmark results, or model integration are claimed yet.
+**Phase 4.1 implemented.** A versioned baseline normalizer and a reproducible starter corpus are available. No trained tokenizer, benchmark results, or model integration are claimed yet.
 
 ## Next step
 
-Create a versioned **Lazy spelling specification** with verified examples and edge cases. Then build the first small corpus and baseline comparison notebook.
+Run the corpus builder, inspect the English/Lazy pairs, then continue to **4.2 — pretrained tokenizer baselines**. See [corpus preparation](docs/corpus_preparation.md).
+
+```bash
+python prepare_corpus.py
+python -m unittest discover -s tests -v
+```
+
+The checked-in starter corpus has 77 aligned pairs: 62 training and 15 test. It is intentionally small and must grow before meaningful generalization claims.
 
 ---
 

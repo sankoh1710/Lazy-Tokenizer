@@ -1,0 +1,61 @@
+boks
+the river runs throo the forest.
+kween
+the nit hurt his nee.
+fotograf
+think before you rite a leter.
+fysiks
+hapy
+the kween visited the stashon.
+the elefant has a fone.
+water
+the lit shines at nit.
+throo
+rite a kweshon about fysiks.
+the elefant walked beside the water.
+kofing
+a komputer kan train a model.
+fone
+the kofee is on the chair.
+kofee
+the road looks roo.
+komputer
+akshon
+bak
+river
+wale
+chair
+stashon
+kat
+think
+train
+chek
+a fotograf kan show a kwiet forest.
+wat
+people
+wat is inside the boks?
+the ship returned to the river.
+kwik
+nee
+rong
+rite
+roo
+each token has an adres.
+we chek the model after training.
+a hapy kat watches a dog.
+people read a book about language.
+matriks
+we study filosofy at school.
+language
+vektor
+we multiply a matriks by a vektor.
+a wale swims throo water.
+the kofing child went bak home.
+dog
+elefant
+forest
+learn
+lit
+nit
+a vektor is a list of numbers.
+filosofy

@@ -1,0 +1,15 @@
+model
+ship
+book
+leter
+school
+our school teaches komputer siense.
+the chair stands beside the window.
+foks
+read
+please chek the fotograf.
+learning takes time and praktise.
+the kwik foks ran bak.
+the rong answer raised a kweshon.
+token
+the fone rang during the akshon sene.

@@ -1,5 +1,7 @@
 # Phase 4.0 — Lazy spelling specification (baseline)
 
+**Version:** `baseline-v0.1-wordwise`
+
 **Status:** Baseline extracted from the existing Lazy Dictionary implementation. Not yet a finalized linguistic specification.
 
 **Source of truth:** [Lazy Dictionary — lazySpell.ts](https://github.com/sankoh1710/Lazy-Dictionary/blob/main/artifacts/lazy-dictionary/src/lib/lazySpell.ts)
@@ -62,10 +64,10 @@ Derived from the current rules; these are a starter test set, not corpus data:
 
 - [x] Record the current rules and their order.
 - [x] Record initial expected examples.
-- [ ] Decide whether these rules are the final Lazy alphabet or a provisional baseline.
-- [ ] Decide word-level vs. full-sentence conversion behavior.
-- [ ] Add automated regression tests for approved conversions.
-- [ ] Version the specification before corpus generation.
+- [x] Use these rules as a provisional baseline, not a final alphabet.
+- [x] Apply rules word by word using `normalize_text`; preserve separators and lowercase English words.
+- [x] Add automated regression tests for baseline conversions.
+- [x] Version the specification before corpus generation.
 
 ## Next stage
 

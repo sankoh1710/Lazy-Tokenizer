@@ -1,0 +1,20 @@
+{
+  "rules_version": "baseline-v0.1-wordwise",
+  "normalizer_sha256": "7c7853ecb4dc14dc53c3d5258d46cb5966ebffd94298fe1ef2d3444915148774",
+  "source_sha256": "7a73e3c28a31936d54fe132496ed4885a75f3cb04a532f56999ec18125980040",
+  "seed": 42,
+  "test_fraction": 0.2,
+  "nonempty_source_lines": 77,
+  "duplicates_removed": 0,
+  "splits": {
+    "test": {
+      "pairs": 15,
+      "unique_lazy_lines": 15
+    },
+    "train": {
+      "pairs": 62,
+      "unique_lazy_lines": 61
+    }
+  },
+  "note": "Rule-generated spellings, not human-verified phonetic transcriptions."
+}

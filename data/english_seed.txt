@@ -1,0 +1,77 @@
+phone
+elephant
+photograph
+philosophy
+physics
+back
+check
+quick
+queen
+box
+fox
+action
+station
+knee
+knight
+write
+wrong
+what
+whale
+light
+night
+rough
+through
+coughing
+coffee
+letter
+happy
+school
+chair
+think
+ship
+water
+forest
+river
+computer
+language
+vector
+matrix
+token
+model
+train
+learn
+read
+book
+people
+cat
+dog
+The elephant has a phone.
+Please check the photograph.
+The quick fox ran back.
+Write a question about physics.
+The knight hurt his knee.
+What is inside the box?
+The queen visited the station.
+We study philosophy at school.
+A whale swims through water.
+The light shines at night.
+The coffee is on the chair.
+A happy cat watches a dog.
+The river runs through the forest.
+People read a book about language.
+A computer can train a model.
+Each token has an address.
+A vector is a list of numbers.
+We multiply a matrix by a vector.
+The ship returned to the river.
+Think before you write a letter.
+The coughing child went back home.
+The road looks rough.
+The wrong answer raised a question.
+Learning takes time and practice.
+We check the model after training.
+The phone rang during the action scene.
+A photograph can show a quiet forest.
+Our school teaches computer science.
+The elephant walked beside the water.
+The chair stands beside the window.
