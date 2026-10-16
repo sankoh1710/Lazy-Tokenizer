@@ -102,3 +102,14 @@ The checked-in starter corpus has 77 aligned pairs: 62 training and 15 test. It 
 ---
 
 Part of the [Lazy Dictionary](https://lazydictionary.com/) experimentation journey.
+
+## Phase 4.2 — Run tokenizer comparisons
+
+The comparison script is implemented; real baseline results are pending.
+
+```bash
+python -m pip install -r requirements-baselines.txt
+python compare_tokenizers.py
+```
+
+See [tokenizer baseline instructions](docs/tokenizer_baselines.md). Only tokenizer files are downloaded; no GPU is required.
